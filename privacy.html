@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pitcher 隐私政策</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0 auto; max-width: 760px; padding: 40px 20px 80px;
+    background: #0e1116; color: #e8edf2;
+    font: 16px/1.75 -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: .5px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; color: #4cd0c0; }
+  p, li { color: #c5ced9; }
+  .meta { color: #7c8794; font-size: 13px; margin-bottom: 28px; }
+  .card {
+    background: #171c23; border: 1px solid #232b35; border-radius: 14px;
+    padding: 16px 18px; margin: 18px 0;
+  }
+  code { color: #7bf2da; }
+  a { color: #4cd0c0; }
+  hr { border: 0; border-top: 1px solid #232b35; margin: 40px 0; }
+  footer { color: #6b7787; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <h1>Pitcher 隐私政策</h1>
+  <div class="meta">生效日期：2026-11-18 · 适用应用：Pitcher（包名 sanqiang.zhang.pitcher）</div>
+
+  <div class="card">
+    <strong>一句话版本：</strong>Pitcher 只在你点击麦克风后实时分析音高，音频不录制、不存储、不上传，
+    应用无账号、无广告、无统计 SDK。
+  </div>
+
+  <h2>一、我们处理哪些信息</h2>
+  <ul>
+    <li><strong>音频数据</strong>：以 16 kHz 单声道采集，仅在本机内存中切帧分析（每帧 64 ms）。</li>
+    <li><strong>不录制、不存储、不上传</strong>：不生成音频文件，不写入本地存储，不向任何服务器发送音频或分析结果。</li>
+    <li><strong>不收集个人信息</strong>：无账号体系，不采集设备标识、位置、通讯录、剪贴板等信息。</li>
+    <li><strong>无第三方统计/广告 SDK</strong>。</li>
+  </ul>
+
+  <h2>二、麦克风权限</h2>
+  <ul>
+    <li>权限名称：<code>ohos.permission.MICROPHONE</code></li>
+    <li>用途：采集环境声音并实时计算音高与音名。</li>
+    <li>时机：仅在你点击麦克风按钮时申请并开始采集；再次点击立即停止。</li>
+    <li>拒绝授权：不影响应用启动与界面浏览，仅无法进行音高检测。</li>
+  </ul>
+
+  <h2>三、数据存储与共享</h2>
+  <p>应用不存储音频、不建立用户档案，因此不存在数据留存与共享。参考音使用内置采样文件，播放过程不联网。</p>
+
+  <h2>四、未成年人保护</h2>
+  <p>应用不收集任何个人信息，未成年人可在监护人指导下使用。</p>
+
+  <h2>五、你的权利</h2>
+  <p>由于应用不收集、不存储个人信息，无需提供查询、更正或删除个人数据的入口。你可以随时在系统设置中撤销麦克风权限。</p>
+
+  <h2>六、政策更新</h2>
+  <p>如未来版本引入需要处理个人数据的特性（例如云端同步），我们会在更新前修改本政策并在应用内提示。</p>
+
+  <h2>七、联系我们</h2>
+  <p>邮箱：<a href="mailto:sanqiang.z@gmail.com">sanqiang.z@gmail.com</a></p>
+
+  <h2>第三方素材</h2>
+  <p>钢琴参考音采样：Salamander Grand Piano（Alexander Holm），CC-BY 3.0，
+    <a href="https://github.com/tonejs/audio">https://github.com/tonejs/audio</a>。</p>
+
+  <hr>
+  <h2>Pitcher Privacy Policy (English)</h2>
+  <p>Pitcher accesses the microphone only after you tap the mic button, and only to compute pitch in real time on
+    the device. Audio is analyzed in memory at 16 kHz, frame by frame; it is never recorded, stored, or transmitted.
+    The app has no accounts, no analytics, no ads, and collects no personal data. Revoke the microphone permission
+    at any time in system settings. Contact: sanqiang.z@gmail.com.</p>
+
+  <footer>© 2026 Pitcher · <a href="./terms.html">用户协议</a> · <a href="./index.html">返回首页</a></footer>
+</body>
+</html>
